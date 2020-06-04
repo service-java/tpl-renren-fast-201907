@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConfigurationProperties(prefix = "renren.storage")
+@ConfigurationProperties(prefix = "xyz.storage")
 public class LocalStorageProperties {
     /**
      * 项目名称

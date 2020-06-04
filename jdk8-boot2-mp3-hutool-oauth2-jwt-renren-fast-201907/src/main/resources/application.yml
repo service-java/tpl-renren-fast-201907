@@ -71,7 +71,7 @@ mybatis-plus:
     jdbc-type-for-null: 'null'
 
 
-renren:
+xyz:
   redis:
     open: false
   shiro:

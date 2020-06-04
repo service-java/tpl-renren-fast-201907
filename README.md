@@ -1,5 +1,4 @@
 # README
 
-renren-fast
+- renren-fast模板学习与改造
 
-->>

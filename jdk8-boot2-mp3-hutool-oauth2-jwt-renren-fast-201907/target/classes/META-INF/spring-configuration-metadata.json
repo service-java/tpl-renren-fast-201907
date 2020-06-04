@@ -6,20 +6,20 @@
       "sourceType": "com.xyz.datasource.property.DynamicDataSourceProperties"
     },
     {
-      "name": "renren.jwt",
-      "type": "com.xyz.modules.app.util.JwtUtils",
-      "sourceType": "com.xyz.modules.app.util.JwtUtils"
-    },
-    {
-      "name": "renren.storage",
-      "type": "com.xyz.config.property.LocalStorageProperties",
-      "sourceType": "com.xyz.config.property.LocalStorageProperties"
-    },
-    {
       "name": "spring.datasource.druid",
       "type": "com.xyz.datasource.property.DataSourceProperties",
       "sourceType": "com.xyz.datasource.config.DynamicDataSourceConfig",
       "sourceMethod": "dataSourceProperties()"
+    },
+    {
+      "name": "xyz.jwt",
+      "type": "com.xyz.modules.app.util.JwtUtils",
+      "sourceType": "com.xyz.modules.app.util.JwtUtils"
+    },
+    {
+      "name": "xyz.storage",
+      "type": "com.xyz.config.property.LocalStorageProperties",
+      "sourceType": "com.xyz.config.property.LocalStorageProperties"
     }
   ],
   "properties": [
@@ -27,40 +27,6 @@
       "name": "dynamic.datasource",
       "type": "java.util.Map<java.lang.String,com.xyz.datasource.property.DataSourceProperties>",
       "sourceType": "com.xyz.datasource.property.DynamicDataSourceProperties"
-    },
-    {
-      "name": "renren.jwt.expire",
-      "type": "java.lang.Long",
-      "sourceType": "com.xyz.modules.app.util.JwtUtils",
-      "defaultValue": 0
-    },
-    {
-      "name": "renren.jwt.header",
-      "type": "java.lang.String",
-      "sourceType": "com.xyz.modules.app.util.JwtUtils"
-    },
-    {
-      "name": "renren.jwt.secret",
-      "type": "java.lang.String",
-      "sourceType": "com.xyz.modules.app.util.JwtUtils"
-    },
-    {
-      "name": "renren.storage.copyright-year",
-      "type": "java.lang.String",
-      "description": "版权年份",
-      "sourceType": "com.xyz.config.property.LocalStorageProperties"
-    },
-    {
-      "name": "renren.storage.name",
-      "type": "java.lang.String",
-      "description": "项目名称",
-      "sourceType": "com.xyz.config.property.LocalStorageProperties"
-    },
-    {
-      "name": "renren.storage.version",
-      "type": "java.lang.String",
-      "description": "版本",
-      "sourceType": "com.xyz.config.property.LocalStorageProperties"
     },
     {
       "name": "spring.datasource.druid.driver-class-name",
@@ -178,6 +144,40 @@
       "type": "java.lang.Integer",
       "sourceType": "com.xyz.datasource.property.DataSourceProperties",
       "defaultValue": -1
+    },
+    {
+      "name": "xyz.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.xyz.modules.app.util.JwtUtils",
+      "defaultValue": 0
+    },
+    {
+      "name": "xyz.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.xyz.modules.app.util.JwtUtils"
+    },
+    {
+      "name": "xyz.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.xyz.modules.app.util.JwtUtils"
+    },
+    {
+      "name": "xyz.storage.copyright-year",
+      "type": "java.lang.String",
+      "description": "版权年份",
+      "sourceType": "com.xyz.config.property.LocalStorageProperties"
+    },
+    {
+      "name": "xyz.storage.name",
+      "type": "java.lang.String",
+      "description": "项目名称",
+      "sourceType": "com.xyz.config.property.LocalStorageProperties"
+    },
+    {
+      "name": "xyz.storage.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "com.xyz.config.property.LocalStorageProperties"
     }
   ],
   "hints": []

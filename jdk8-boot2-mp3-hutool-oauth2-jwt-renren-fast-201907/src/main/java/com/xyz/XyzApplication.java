@@ -13,8 +13,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class RenrenApplication {
+public class XyzApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(RenrenApplication.class, args);
+		SpringApplication.run(XyzApplication.class, args);
 	}
 }
